@@ -27,6 +27,8 @@ This regex is designed to match a complete email address, ensuring that it follo
 - [Boundaries](#boundaries)
 - [Back-references](#back-references)
 - [Look-ahead and Look-behind](#look-ahead-and-look-behind)
+- [Author](#Author)
+- [Resources](#Resources)
 
 ## Regex Components
 A regex is considered a literal (the idea of expressing a non-changing value or fixed value in a computer program's source code), so the pattern must be wrapped in slash characters (/). 
@@ -353,4 +355,14 @@ https://github.com/eecmanny
 https://gist.github.com/eecmanny
 
 https://gist.github.com/eecmanny/289dabf3cf2a8003eaf55ebbbcbc12f2
+
+## Resources
+
+https://coding-boot-camp.github.io/full-stack/computer-science/regex-tutorial
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions
+
+Instructor and TA
+
+chatgp for grammar and defintions
 
