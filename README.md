@@ -168,8 +168,7 @@ Character classes are a way to specify a set of characters that can be matched b
 >
 > \ (insert special character here) = \ Followed by a special character, means that the character should be matched literally.  
 > @ = Is already a literal so this will represent its self.
-
-
+> 
 
 
 Also, each of the last three character classes can be changed to perform an inverse match by capitalizing the letter character. For example, \D matches a non-digit character.
@@ -302,6 +301,13 @@ Boundary	Syntax
  >[\w] = Match any word character	
 >
 > [\W] = Match any non-word character
+
+
+Orginal code for Matching an Email example Uses character classes too. The \d in ([\da-z\.-]+) is a character class that matches any digit (Arabic numeral) which is the shorthand for [0-9].
+
+```js
+const regex = /^([a-z0-9_\.-]+)@([\da-z\.-]+)\.([a-z\.]{2,6})$/
+```
 
 
 ### Back-references
